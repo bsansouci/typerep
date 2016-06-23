@@ -1,0 +1,17 @@
+{
+  "name": "typerep_lib",
+  "version": "0.0.1",
+  "description": "typerep is a library for runtime types.",
+  "license": "Apache-2.0",
+  "jengaboot": {
+    "ppxFlag": "ppx-jane -as-ppx -inline-test-lib core -inline-test-drop -bench-drop"
+  },
+  "devDependencies": {
+    "jengaboot": "git://github.com/bsansouci/jengaboot.git#tmp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsansouci/typerep.git"
+  },
+  "author": "Jane Street Group, LLC <opensource@janestreet.com>"
+}
